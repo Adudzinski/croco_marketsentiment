@@ -1,0 +1,16 @@
+company:
+  name: "Albemarle"
+  keywords:
+    - "Albemarle"
+    - "lithium"
+    - "battery metals"
+
+newsapi:
+  language: "en"
+  max_results: 25
+  sort_by: "publishedAt"
+
+llm:
+  provider: "openai"
+  model: "gpt-3.5-turbo"
+  mock: false
