@@ -37,7 +37,7 @@ headline-sentiment-analyzer/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/headline-sentiment-analyzer.git
+git clone https://github.com/adudzinski/croco_marketsentiment.git
 cd headline-sentiment-analyzer
 ```
 

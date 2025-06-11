@@ -16,6 +16,8 @@ MOCK_RESPONSES = ["POSITIVE", "NEGATIVE", "NEUTRAL"]
 def analyze_sentiment(headlines, config):
     model = config["llm"].get("model", "gpt-3.5-turbo")
     mock_mode = config["llm"].get("mock", False)
+    if mock_mode:
+        print("YOU ARE CURRENTLY WORKING IN MOCK MODE")
     results = []
 
     for item in headlines:
